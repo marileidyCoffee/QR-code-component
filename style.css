@@ -1,0 +1,49 @@
+:root{
+    --blanco:#FFF;
+    --gris:#d6d6d6;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--gris);
+}
+.QR-contenedor {
+    width: 270px;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: var(--blanco);
+}
+h3 {
+    color: #134167;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.QR-contenedor-img{
+    background-color: rgb(28, 122, 209);
+    height: 250px;
+    width: 250px;
+    border-radius: 14px;
+}
+.QR-contenedor-txt{
+    flex-direction: column;
+    padding: 10px 5px;
+}
+p{
+    font-size: 15px;
+    color: #7e7e7e;
+}
